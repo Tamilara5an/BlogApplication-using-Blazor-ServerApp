@@ -1,0 +1,101 @@
+﻿@page "/"
+@using MudBlazor
+@using BlogApplication.Services
+@using BlogApplication.Models
+
+
+@inject MongoDBService MongoDBService
+
+<MudContainer MaxWidth="MaxWidth.Large" Class="mt-8">
+    <MudPaper Elevation="0" Class="relative overflow-hidden rounded-xl py-16 px-8 mb-16"
+              Style="background: linear-gradient(135deg, var(--mud-palette-primary) 0%, var(--mud-palette-secondary) 100%);">
+        <MudContainer>
+            <MudGrid Justify="Justify.Center" Class="text-center">
+                <MudItem xs="12" Class="d-flex flex-column align-center">
+                    <MudIcon Icon="@Icons.Material.Filled.Article"
+                             Color="Color.Surface"
+                             Style="width: 80px; height: 80px;"
+                             Class="mb-6" />
+                    <MudText Typo="Typo.h2" Color="Color.Surface" Class="mb-4 fw-bold">
+                        Share Your Story with the World
+                    </MudText>
+                    <MudText Typo="Typo.h6" Color="Color.Surface" Class="mb-8 mx-auto" Style="max-width: 600px;">
+                        A platform for writers, thinkers, and storytellers to share their knowledge
+                        and connect with readers around the globe.
+                    </MudText>
+                    <MudButton Variant="Variant.Filled"
+                               Color="Color.Dark"
+                               Size="Size.Large"
+                               Class="px-8 rounded-pill"
+                               Href="/signin">
+                        Get Started
+                    </MudButton>
+                </MudItem>
+            </MudGrid>
+        </MudContainer>
+    </MudPaper>
+
+    <MudGrid Justify="Justify.Center" Class="mb-16">
+        @foreach (var feature in features)
+        {
+            <MudItem xs="12" sm="6" md="4">
+                <MudPaper Elevation="0" Class="pa-6 text-center h-100">
+                    <MudIcon Icon="@feature.Icon"
+                             Color="Color.Primary"
+                             Style="width: 48px; height: 48px;"
+                             Class="mb-4" />
+                    <MudText Typo="Typo.h6" Class="mb-2">@feature.Title</MudText>
+                    <MudText Typo="Typo.body2" Color="Color.Secondary">
+                        @feature.Description
+                    </MudText>
+                </MudPaper>
+            </MudItem>
+        }
+    </MudGrid>
+
+    <MudPaper Elevation="0"
+              Class="py-12 px-8 rounded-xl text-center mb-8"
+              Style="background-color: var(--mud-palette-background-grey);">
+        <MudText Typo="Typo.h4" Class="mb-4">Ready to Start Writing?</MudText>
+        <MudText Typo="Typo.body1" Color="Color.Secondary" Class="mb-6 mx-auto" Style="max-width: 500px;">
+            Join our community of writers and readers. Start sharing your stories today.
+        </MudText>
+        <MudButton Variant="Variant.Filled"
+                   Color="Color.Primary"
+                   Size="Size.Large"
+                   Href="/signin">
+            Sign In to Write
+        </MudButton>
+    </MudPaper>
+</MudContainer>
+
+@code {
+    private List<Feature> features = new()
+    {
+        new Feature
+        {
+            Icon = Icons.Material.Filled.Create,
+            Title = "Write & Share",
+            Description = "Create beautiful blog posts with our easy-to-use editor and share them with the world."
+        },
+        new Feature
+        {
+            Icon = Icons.Material.Filled.Groups,
+            Title = "Engage Community",
+            Description = "Connect with readers and fellow writers. Build your audience and grow together."
+        },
+        new Feature
+        {
+            Icon = Icons.Material.Filled.Analytics,
+            Title = "Track Growth",
+            Description = "Monitor your post performance and audience engagement with detailed analytics."
+        }
+    };
+    
+public class Feature
+{
+    public string Icon { get; set; }
+    public string Title { get; set; }
+    public string Description { get; set; }
+}
+}

@@ -1,0 +1,2816 @@
+{
+  "Version": 1,
+  "Hash": "zOQO4ePPf/2UcmMJzrphpKqbNLlsk1He8Jtk+M5CDlc=",
+  "Source": "BlogApplication",
+  "BasePath": "_content/BlogApplication",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BlogApplication\\wwwroot",
+      "Source": "BlogApplication",
+      "ContentRoot": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\",
+      "BasePath": "_content/BlogApplication",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\tamil\\.nuget\\packages\\mudblazor\\6.21.0\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\tamil\\.nuget\\packages\\mudblazor\\6.21.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qxbtukvcmg",
+      "Integrity": "rn8eNl+9uB529WfApYjM5fW3PddfCejXYcvfIgZsvkk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\tamil\\.nuget\\packages\\mudblazor\\6.21.0\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\tamil\\.nuget\\packages\\mudblazor\\6.21.0\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\tamil\\.nuget\\packages\\mudblazor\\6.21.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wh0nb2cuo3",
+      "Integrity": "RNWjaXK3LK0fumrRvkv1+QEnZZeFknI/3qKf6Wy++VM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\tamil\\.nuget\\packages\\mudblazor\\6.21.0\\staticwebassets\\MudBlazor.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlogApplication.styles.css",
+      "SourceId": "BlogApplication",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/BlogApplication",
+      "RelativePath": "BlogApplication#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "hfeh3xajia",
+      "Integrity": "szUIHeXDP5bOazLJFO6nDOLYfJ25xbtxsXc/jWe3ARM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlogApplication.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlogApplication.bundle.scp.css",
+      "SourceId": "BlogApplication",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/BlogApplication",
+      "RelativePath": "BlogApplication#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "hfeh3xajia",
+      "Integrity": "szUIHeXDP5bOazLJFO6nDOLYfJ25xbtxsXc/jWe3ARM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlogApplication.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\blog.png",
+      "SourceId": "BlogApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\",
+      "BasePath": "_content/BlogApplication",
+      "RelativePath": "blog#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2akyja9qzx",
+      "Integrity": "1vmElRZJqfK3jdWUY86J+NsxOSNBXVrdAmaGheinku0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\blog.png"
+    },
+    {
+      "Identity": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "SourceId": "BlogApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\",
+      "BasePath": "_content/BlogApplication",
+      "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bpk8xqwxhs",
+      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "BlogApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\",
+      "BasePath": "_content/BlogApplication",
+      "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "SourceId": "BlogApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\",
+      "BasePath": "_content/BlogApplication",
+      "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cmapd0fi15",
+      "Integrity": "BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "SourceId": "BlogApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\",
+      "BasePath": "_content/BlogApplication",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.eot",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0uw8dim9nl",
+      "Integrity": "OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Identity": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "SourceId": "BlogApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\",
+      "BasePath": "_content/BlogApplication",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wk8x8xm0ah",
+      "Integrity": "sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Identity": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "SourceId": "BlogApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\",
+      "BasePath": "_content/BlogApplication",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sjnzgf7e1h",
+      "Integrity": "+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Identity": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "SourceId": "BlogApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\",
+      "BasePath": "_content/BlogApplication",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ll5grcv8wv",
+      "Integrity": "p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "SourceId": "BlogApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\",
+      "BasePath": "_content/BlogApplication",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.woff",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h4d0pazwgy",
+      "Integrity": "cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Identity": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "BlogApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\",
+      "BasePath": "_content/BlogApplication",
+      "RelativePath": "css/open-iconic/FONT-LICENSE#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "48tmkg660f",
+      "Integrity": "jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
+    },
+    {
+      "Identity": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "SourceId": "BlogApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\",
+      "BasePath": "_content/BlogApplication",
+      "RelativePath": "css/open-iconic/ICON-LICENSE#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4dwjve0o0b",
+      "Integrity": "aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
+    },
+    {
+      "Identity": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\README.md",
+      "SourceId": "BlogApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\",
+      "BasePath": "_content/BlogApplication",
+      "RelativePath": "css/open-iconic/README#[.{fingerprint}]?.md",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5bzwdl5l6x",
+      "Integrity": "waukoLqsiIAw/nXpsKkTHnhImmcPijcBEd2lzqzJNN0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
+    },
+    {
+      "Identity": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\site.css",
+      "SourceId": "BlogApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\",
+      "BasePath": "_content/BlogApplication",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2lz81znd6l",
+      "Integrity": "2txNznPvytr0HxF3lVXKgiD4ejqgri4EnFiCweHwwck=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\favicon.png",
+      "SourceId": "BlogApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\",
+      "BasePath": "_content/BlogApplication",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\04e5df32-53ea-4698-b484-b449dd18ee46_deepseek.png",
+      "SourceId": "BlogApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\",
+      "BasePath": "_content/BlogApplication",
+      "RelativePath": "uploads/04e5df32-53ea-4698-b484-b449dd18ee46_deepseek#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5yo9awvlxa",
+      "Integrity": "jeASP7lRfZNE8ebhBat6krHDDo4wfASTNN0kKRRlUs0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\04e5df32-53ea-4698-b484-b449dd18ee46_deepseek.png"
+    },
+    {
+      "Identity": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\0ae0141d-0202-4c8c-9c47-bf335ab74e35_lifestyle.jpeg",
+      "SourceId": "BlogApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\",
+      "BasePath": "_content/BlogApplication",
+      "RelativePath": "uploads/0ae0141d-0202-4c8c-9c47-bf335ab74e35_lifestyle#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ddp73ub4ov",
+      "Integrity": "MUcEZhZY3mZ/9NUB2dCA8163tr6oDUpQ+8S70dqJVeY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\0ae0141d-0202-4c8c-9c47-bf335ab74e35_lifestyle.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\12ef3a68-3453-4bda-967e-bd4c7f9b142e_Business.jpeg",
+      "SourceId": "BlogApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\",
+      "BasePath": "_content/BlogApplication",
+      "RelativePath": "uploads/12ef3a68-3453-4bda-967e-bd4c7f9b142e_Business#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "egbq1rj9u1",
+      "Integrity": "guYjKNR+IuzSMf5D0gLokbUHdCMhCOLQ2LShOhHgqZg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\12ef3a68-3453-4bda-967e-bd4c7f9b142e_Business.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\2f9fef7f-df63-45e9-80dd-5557b553ee40_sun (1).png",
+      "SourceId": "BlogApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\",
+      "BasePath": "_content/BlogApplication",
+      "RelativePath": "uploads/2f9fef7f-df63-45e9-80dd-5557b553ee40_sun (1)#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n9co9p6s99",
+      "Integrity": "5Z5nGT9ab5SVZeyt98W1lRvsaKvIRTlowSawKoK/uDo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\2f9fef7f-df63-45e9-80dd-5557b553ee40_sun (1).png"
+    },
+    {
+      "Identity": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\4a0c39e8-7bad-4992-b829-3563c76c9996_claude.png",
+      "SourceId": "BlogApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\",
+      "BasePath": "_content/BlogApplication",
+      "RelativePath": "uploads/4a0c39e8-7bad-4992-b829-3563c76c9996_claude#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ak0x7en3bx",
+      "Integrity": "5u97HsucPbWXmJijhBQ2VycWG6bOwNIQ1m8qhF7ZauI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\4a0c39e8-7bad-4992-b829-3563c76c9996_claude.png"
+    },
+    {
+      "Identity": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\58fd233d-7582-45e0-baff-b58971e3fe05_politics.jpeg",
+      "SourceId": "BlogApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\",
+      "BasePath": "_content/BlogApplication",
+      "RelativePath": "uploads/58fd233d-7582-45e0-baff-b58971e3fe05_politics#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2q8ibazpgi",
+      "Integrity": "qr+MKSpvC14kzIPomG615D8f4OQHuPBc9lhghIYtUWg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\58fd233d-7582-45e0-baff-b58971e3fe05_politics.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\92f8941c-30ab-4f50-a97c-66524dcbef39_claude.png",
+      "SourceId": "BlogApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\",
+      "BasePath": "_content/BlogApplication",
+      "RelativePath": "uploads/92f8941c-30ab-4f50-a97c-66524dcbef39_claude#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ak0x7en3bx",
+      "Integrity": "5u97HsucPbWXmJijhBQ2VycWG6bOwNIQ1m8qhF7ZauI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\92f8941c-30ab-4f50-a97c-66524dcbef39_claude.png"
+    },
+    {
+      "Identity": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\972b8e30-bf66-48e9-8e9d-5901170cbeb0.png",
+      "SourceId": "BlogApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\",
+      "BasePath": "_content/BlogApplication",
+      "RelativePath": "uploads/972b8e30-bf66-48e9-8e9d-5901170cbeb0#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ak0x7en3bx",
+      "Integrity": "5u97HsucPbWXmJijhBQ2VycWG6bOwNIQ1m8qhF7ZauI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\972b8e30-bf66-48e9-8e9d-5901170cbeb0.png"
+    },
+    {
+      "Identity": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\ba9ba469-ca52-4f03-b379-5ed1a4f19332_food.jpg",
+      "SourceId": "BlogApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\",
+      "BasePath": "_content/BlogApplication",
+      "RelativePath": "uploads/ba9ba469-ca52-4f03-b379-5ed1a4f19332_food#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "akrurysmk6",
+      "Integrity": "9hUhigkF9APPBtbkNlr5G9y1zQ98VtZTCMQTu0uHh8E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\ba9ba469-ca52-4f03-b379-5ed1a4f19332_food.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\c3eb89f7-91de-4773-84c0-3adf68c6cc82_health.jpg",
+      "SourceId": "BlogApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\",
+      "BasePath": "_content/BlogApplication",
+      "RelativePath": "uploads/c3eb89f7-91de-4773-84c0-3adf68c6cc82_health#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "54ckkgfb4d",
+      "Integrity": "qwHgCjp2jWnLCZry8UcnCbxAnPkQSYo/gAdYE8Gthqk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\c3eb89f7-91de-4773-84c0-3adf68c6cc82_health.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.css",
+      "AssetFile": "C:\\Users\\tamil\\.nuget\\packages\\mudblazor\\6.21.0\\staticwebassets\\MudBlazor.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "540935"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rn8eNl+9uB529WfApYjM5fW3PddfCejXYcvfIgZsvkk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 06 Jul 2024 18:06:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rn8eNl+9uB529WfApYjM5fW3PddfCejXYcvfIgZsvkk="
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.js",
+      "AssetFile": "C:\\Users\\tamil\\.nuget\\packages\\mudblazor\\6.21.0\\staticwebassets\\MudBlazor.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RNWjaXK3LK0fumrRvkv1+QEnZZeFknI/3qKf6Wy++VM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 06 Jul 2024 18:06:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RNWjaXK3LK0fumrRvkv1+QEnZZeFknI/3qKf6Wy++VM="
+        }
+      ]
+    },
+    {
+      "Route": "blog.2akyja9qzx.png",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\blog.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "107787"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1vmElRZJqfK3jdWUY86J+NsxOSNBXVrdAmaGheinku0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 04:03:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2akyja9qzx"
+        },
+        {
+          "Name": "label",
+          "Value": "blog.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1vmElRZJqfK3jdWUY86J+NsxOSNBXVrdAmaGheinku0="
+        }
+      ]
+    },
+    {
+      "Route": "blog.png",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\blog.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "107787"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1vmElRZJqfK3jdWUY86J+NsxOSNBXVrdAmaGheinku0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 04:03:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1vmElRZJqfK3jdWUY86J+NsxOSNBXVrdAmaGheinku0="
+        }
+      ]
+    },
+    {
+      "Route": "BlogApplication.bundle.scp.css",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlogApplication.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1542"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"szUIHeXDP5bOazLJFO6nDOLYfJ25xbtxsXc/jWe3ARM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 04:56:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-szUIHeXDP5bOazLJFO6nDOLYfJ25xbtxsXc/jWe3ARM="
+        }
+      ]
+    },
+    {
+      "Route": "BlogApplication.hfeh3xajia.bundle.scp.css",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlogApplication.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1542"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"szUIHeXDP5bOazLJFO6nDOLYfJ25xbtxsXc/jWe3ARM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 04:56:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hfeh3xajia"
+        },
+        {
+          "Name": "label",
+          "Value": "BlogApplication.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-szUIHeXDP5bOazLJFO6nDOLYfJ25xbtxsXc/jWe3ARM="
+        }
+      ]
+    },
+    {
+      "Route": "BlogApplication.hfeh3xajia.styles.css",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlogApplication.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1542"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"szUIHeXDP5bOazLJFO6nDOLYfJ25xbtxsXc/jWe3ARM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 04:56:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hfeh3xajia"
+        },
+        {
+          "Name": "label",
+          "Value": "BlogApplication.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-szUIHeXDP5bOazLJFO6nDOLYfJ25xbtxsXc/jWe3ARM="
+        }
+      ]
+    },
+    {
+      "Route": "BlogApplication.styles.css",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlogApplication.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1542"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"szUIHeXDP5bOazLJFO6nDOLYfJ25xbtxsXc/jWe3ARM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 04:56:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-szUIHeXDP5bOazLJFO6nDOLYfJ25xbtxsXc/jWe3ARM="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.bpk8xqwxhs.css",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 16:50:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bpk8xqwxhs"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 16:50:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 16:50:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 16:50:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.cmapd0fi15.css",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 16:50:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cmapd0fi15"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 16:50:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.0uw8dim9nl.eot",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28196"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.ms-fontobject"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 16:50:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0uw8dim9nl"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.eot"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.eot",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28196"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.ms-fontobject"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 16:50:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.h4d0pazwgy.woff",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 16:50:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h4d0pazwgy"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.woff"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.ll5grcv8wv.ttf",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 16:50:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ll5grcv8wv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.otf",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 16:50:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.sjnzgf7e1h.svg",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 16:50:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sjnzgf7e1h"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.svg",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 16:50:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.ttf",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 16:50:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.wk8x8xm0ah.otf",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 16:50:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wk8x8xm0ah"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.woff",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 16:50:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/FONT-LICENSE",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4103"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 16:50:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/FONT-LICENSE.48tmkg660f",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4103"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 16:50:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "48tmkg660f"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/FONT-LICENSE"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/ICON-LICENSE",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1093"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 16:50:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/ICON-LICENSE.4dwjve0o0b",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1093"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 16:50:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4dwjve0o0b"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/ICON-LICENSE"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/README.5bzwdl5l6x.md",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\README.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3655"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"waukoLqsiIAw/nXpsKkTHnhImmcPijcBEd2lzqzJNN0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 16:50:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5bzwdl5l6x"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/README.md"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-waukoLqsiIAw/nXpsKkTHnhImmcPijcBEd2lzqzJNN0="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/README.md",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\README.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3655"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"waukoLqsiIAw/nXpsKkTHnhImmcPijcBEd2lzqzJNN0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 16:50:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-waukoLqsiIAw/nXpsKkTHnhImmcPijcBEd2lzqzJNN0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.2lz81znd6l.css",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3025"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2txNznPvytr0HxF3lVXKgiD4ejqgri4EnFiCweHwwck=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 06:42:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2lz81znd6l"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2txNznPvytr0HxF3lVXKgiD4ejqgri4EnFiCweHwwck="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3025"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2txNznPvytr0HxF3lVXKgiD4ejqgri4EnFiCweHwwck=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 06:42:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2txNznPvytr0HxF3lVXKgiD4ejqgri4EnFiCweHwwck="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 16:50:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 16:50:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/04e5df32-53ea-4698-b484-b449dd18ee46_deepseek.5yo9awvlxa.png",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\04e5df32-53ea-4698-b484-b449dd18ee46_deepseek.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2270"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jeASP7lRfZNE8ebhBat6krHDDo4wfASTNN0kKRRlUs0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 06:17:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5yo9awvlxa"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/04e5df32-53ea-4698-b484-b449dd18ee46_deepseek.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jeASP7lRfZNE8ebhBat6krHDDo4wfASTNN0kKRRlUs0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/04e5df32-53ea-4698-b484-b449dd18ee46_deepseek.png",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\04e5df32-53ea-4698-b484-b449dd18ee46_deepseek.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2270"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jeASP7lRfZNE8ebhBat6krHDDo4wfASTNN0kKRRlUs0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 06:17:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jeASP7lRfZNE8ebhBat6krHDDo4wfASTNN0kKRRlUs0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/0ae0141d-0202-4c8c-9c47-bf335ab74e35_lifestyle.ddp73ub4ov.jpeg",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\0ae0141d-0202-4c8c-9c47-bf335ab74e35_lifestyle.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14748"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MUcEZhZY3mZ/9NUB2dCA8163tr6oDUpQ+8S70dqJVeY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 11:04:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ddp73ub4ov"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/0ae0141d-0202-4c8c-9c47-bf335ab74e35_lifestyle.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MUcEZhZY3mZ/9NUB2dCA8163tr6oDUpQ+8S70dqJVeY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/0ae0141d-0202-4c8c-9c47-bf335ab74e35_lifestyle.jpeg",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\0ae0141d-0202-4c8c-9c47-bf335ab74e35_lifestyle.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14748"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MUcEZhZY3mZ/9NUB2dCA8163tr6oDUpQ+8S70dqJVeY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 11:04:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MUcEZhZY3mZ/9NUB2dCA8163tr6oDUpQ+8S70dqJVeY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/12ef3a68-3453-4bda-967e-bd4c7f9b142e_Business.egbq1rj9u1.jpeg",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\12ef3a68-3453-4bda-967e-bd4c7f9b142e_Business.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8479"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"guYjKNR+IuzSMf5D0gLokbUHdCMhCOLQ2LShOhHgqZg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 11:11:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "egbq1rj9u1"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/12ef3a68-3453-4bda-967e-bd4c7f9b142e_Business.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-guYjKNR+IuzSMf5D0gLokbUHdCMhCOLQ2LShOhHgqZg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/12ef3a68-3453-4bda-967e-bd4c7f9b142e_Business.jpeg",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\12ef3a68-3453-4bda-967e-bd4c7f9b142e_Business.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8479"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"guYjKNR+IuzSMf5D0gLokbUHdCMhCOLQ2LShOhHgqZg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 11:11:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-guYjKNR+IuzSMf5D0gLokbUHdCMhCOLQ2LShOhHgqZg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/2f9fef7f-df63-45e9-80dd-5557b553ee40_sun (1).n9co9p6s99.png",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\2f9fef7f-df63-45e9-80dd-5557b553ee40_sun (1).png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36499"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5Z5nGT9ab5SVZeyt98W1lRvsaKvIRTlowSawKoK/uDo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 06:33:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n9co9p6s99"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/2f9fef7f-df63-45e9-80dd-5557b553ee40_sun (1).png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5Z5nGT9ab5SVZeyt98W1lRvsaKvIRTlowSawKoK/uDo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/2f9fef7f-df63-45e9-80dd-5557b553ee40_sun (1).png",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\2f9fef7f-df63-45e9-80dd-5557b553ee40_sun (1).png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36499"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5Z5nGT9ab5SVZeyt98W1lRvsaKvIRTlowSawKoK/uDo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 06:33:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5Z5nGT9ab5SVZeyt98W1lRvsaKvIRTlowSawKoK/uDo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/4a0c39e8-7bad-4992-b829-3563c76c9996_claude.ak0x7en3bx.png",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\4a0c39e8-7bad-4992-b829-3563c76c9996_claude.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5u97HsucPbWXmJijhBQ2VycWG6bOwNIQ1m8qhF7ZauI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 04:49:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ak0x7en3bx"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/4a0c39e8-7bad-4992-b829-3563c76c9996_claude.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5u97HsucPbWXmJijhBQ2VycWG6bOwNIQ1m8qhF7ZauI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/4a0c39e8-7bad-4992-b829-3563c76c9996_claude.png",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\4a0c39e8-7bad-4992-b829-3563c76c9996_claude.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5u97HsucPbWXmJijhBQ2VycWG6bOwNIQ1m8qhF7ZauI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 04:49:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5u97HsucPbWXmJijhBQ2VycWG6bOwNIQ1m8qhF7ZauI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/58fd233d-7582-45e0-baff-b58971e3fe05_politics.2q8ibazpgi.jpeg",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\58fd233d-7582-45e0-baff-b58971e3fe05_politics.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7389"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qr+MKSpvC14kzIPomG615D8f4OQHuPBc9lhghIYtUWg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 10:26:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2q8ibazpgi"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/58fd233d-7582-45e0-baff-b58971e3fe05_politics.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qr+MKSpvC14kzIPomG615D8f4OQHuPBc9lhghIYtUWg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/58fd233d-7582-45e0-baff-b58971e3fe05_politics.jpeg",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\58fd233d-7582-45e0-baff-b58971e3fe05_politics.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7389"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qr+MKSpvC14kzIPomG615D8f4OQHuPBc9lhghIYtUWg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 10:26:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qr+MKSpvC14kzIPomG615D8f4OQHuPBc9lhghIYtUWg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/92f8941c-30ab-4f50-a97c-66524dcbef39_claude.ak0x7en3bx.png",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\92f8941c-30ab-4f50-a97c-66524dcbef39_claude.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5u97HsucPbWXmJijhBQ2VycWG6bOwNIQ1m8qhF7ZauI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 05:52:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ak0x7en3bx"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/92f8941c-30ab-4f50-a97c-66524dcbef39_claude.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5u97HsucPbWXmJijhBQ2VycWG6bOwNIQ1m8qhF7ZauI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/92f8941c-30ab-4f50-a97c-66524dcbef39_claude.png",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\92f8941c-30ab-4f50-a97c-66524dcbef39_claude.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5u97HsucPbWXmJijhBQ2VycWG6bOwNIQ1m8qhF7ZauI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 05:52:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5u97HsucPbWXmJijhBQ2VycWG6bOwNIQ1m8qhF7ZauI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/972b8e30-bf66-48e9-8e9d-5901170cbeb0.ak0x7en3bx.png",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\972b8e30-bf66-48e9-8e9d-5901170cbeb0.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5u97HsucPbWXmJijhBQ2VycWG6bOwNIQ1m8qhF7ZauI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 06:19:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ak0x7en3bx"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/972b8e30-bf66-48e9-8e9d-5901170cbeb0.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5u97HsucPbWXmJijhBQ2VycWG6bOwNIQ1m8qhF7ZauI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/972b8e30-bf66-48e9-8e9d-5901170cbeb0.png",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\972b8e30-bf66-48e9-8e9d-5901170cbeb0.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5u97HsucPbWXmJijhBQ2VycWG6bOwNIQ1m8qhF7ZauI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 06:19:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5u97HsucPbWXmJijhBQ2VycWG6bOwNIQ1m8qhF7ZauI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/ba9ba469-ca52-4f03-b379-5ed1a4f19332_food.akrurysmk6.jpg",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\ba9ba469-ca52-4f03-b379-5ed1a4f19332_food.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "193297"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9hUhigkF9APPBtbkNlr5G9y1zQ98VtZTCMQTu0uHh8E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 11:18:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "akrurysmk6"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/ba9ba469-ca52-4f03-b379-5ed1a4f19332_food.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9hUhigkF9APPBtbkNlr5G9y1zQ98VtZTCMQTu0uHh8E="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/ba9ba469-ca52-4f03-b379-5ed1a4f19332_food.jpg",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\ba9ba469-ca52-4f03-b379-5ed1a4f19332_food.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "193297"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9hUhigkF9APPBtbkNlr5G9y1zQ98VtZTCMQTu0uHh8E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 11:18:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9hUhigkF9APPBtbkNlr5G9y1zQ98VtZTCMQTu0uHh8E="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/c3eb89f7-91de-4773-84c0-3adf68c6cc82_health.54ckkgfb4d.jpg",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\c3eb89f7-91de-4773-84c0-3adf68c6cc82_health.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8871"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qwHgCjp2jWnLCZry8UcnCbxAnPkQSYo/gAdYE8Gthqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 09:35:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "54ckkgfb4d"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/c3eb89f7-91de-4773-84c0-3adf68c6cc82_health.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qwHgCjp2jWnLCZry8UcnCbxAnPkQSYo/gAdYE8Gthqk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/c3eb89f7-91de-4773-84c0-3adf68c6cc82_health.jpg",
+      "AssetFile": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\c3eb89f7-91de-4773-84c0-3adf68c6cc82_health.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8871"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qwHgCjp2jWnLCZry8UcnCbxAnPkQSYo/gAdYE8Gthqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 09:35:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qwHgCjp2jWnLCZry8UcnCbxAnPkQSYo/gAdYE8Gthqk="
+        }
+      ]
+    }
+  ]
+}

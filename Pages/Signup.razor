@@ -1,0 +1,176 @@
+﻿@page "/signup"
+@using BlogApplication.Services
+@using System.ComponentModel.DataAnnotations
+@using MudBlazor
+@using global::BlogApplication.Services
+@inject SupabaseService SupabaseService
+@inject NavigationManager NavigationManager
+@inject ISnackbar Snackbar
+
+<MudContainer MaxWidth="MaxWidth.Small" Class="px-4">
+    <MudCard Elevation="25" Class="mt-4 mt-sm-8">
+        <MudCardHeader Class="d-flex flex-column align-center py-4">
+            <MudAvatar Size="Size.Large" Class="mb-3">
+                <MudImage Src="blog.png" Alt="Blog Logo" Class="object-fit-cover"></MudImage>
+            </MudAvatar>
+            <MudText Typo="Typo.h4" Class="text-center">Create Account</MudText>
+        </MudCardHeader>
+        <MudCardContent Class="px-4 pb-4">
+            <MudGrid Spacing="2">
+                <MudItem xs="12">
+                    <MudTextField T="string"
+                                  @bind-Value="username"
+                                  Label="Username"
+                                  Required="true"
+                                  RequiredError="Username is required!"
+                                  Variant="Variant.Outlined"
+                                  Class="mb-3" />
+                </MudItem>
+
+                <MudItem xs="12">
+                    <MudTextField @bind-Value="email"
+                                  Label="Email"
+                                  Required="true"
+                                  Variant="Variant.Outlined"
+                                  Validation="@(new EmailAddressAttribute() { ErrorMessage = "Invalid email address" })"
+                                  InputType="InputType.Email"
+                                  Class="mb-3" />
+                </MudItem>
+
+                <MudItem xs="12">
+                    <MudTextField @bind-Value="password"
+                                  Label="Password"
+                                  Required="true"
+                                  InputType="@(showPassword ? InputType.Text : InputType.Password)"
+                                  Adornment="Adornment.End"
+                                  Variant="Variant.Outlined"
+                                  AdornmentIcon="@(showPassword ? Icons.Material.Filled.VisibilityOff : Icons.Material.Filled.Visibility)"
+                                  OnAdornmentClick="() => showPassword = !showPassword"
+                                  Class="mb-3" />
+                </MudItem>
+
+                <MudItem xs="12">
+                    <MudTextField @bind-Value="confirmPassword"
+                                  Label="Confirm Password"
+                                  Required="true"
+                                  InputType="@(showConfirmPassword ? InputType.Text : InputType.Password)"
+                                  Adornment="Adornment.End"
+                                  Variant="Variant.Outlined"
+                                  AdornmentIcon="@(showConfirmPassword ? Icons.Material.Filled.VisibilityOff : Icons.Material.Filled.Visibility)"
+                                  OnAdornmentClick="() => showConfirmPassword = !showConfirmPassword" />
+                </MudItem>
+            </MudGrid>
+        </MudCardContent>
+        <MudCardActions Class="d-flex flex-column align-center pb-4 px-4">
+            <MudButton Variant="Variant.Filled"
+                       Color="Color.Primary"
+                       Size="Size.Large"
+                       FullWidth="true"
+                       OnClick="HandleSignUp"
+                       Disabled="isLoading"
+                       Class="sign-in-button mb-3">
+                <MudProgressCircular Indeterminate="true" Style="margin-right:8px;" Hidden="@(!isLoading)" />
+                @if (!isLoading)
+                {
+                    <span>Sign Up</span>
+                }
+                else
+                {
+                    <span>Signing Up...</span>
+                }
+            </MudButton>
+            <MudButton Variant="Variant.Text"
+                       Color="Color.Secondary"
+                       OnClick="@(() => NavigationManager.NavigateTo("/signin"))">
+                Already have an account?
+            </MudButton>
+        </MudCardActions>
+    </MudCard>
+</MudContainer>
+
+@code {
+    private string username;
+    private string email;
+    private string password;
+    private string confirmPassword;
+    private bool showPassword;
+    private bool showConfirmPassword;
+    private bool isLoading;
+
+    private async Task HandleSignUp()
+    {
+        if (isLoading) return;
+
+        if (string.IsNullOrEmpty(username))
+        {
+            Snackbar.Add("Username is required.", Severity.Error);
+            return;
+        }
+
+        if (string.IsNullOrEmpty(email) || !new EmailAddressAttribute().IsValid(email))
+        {
+            Snackbar.Add("A valid email is required.", Severity.Error);
+            return;
+        }
+
+        if (string.IsNullOrEmpty(password))
+        {
+            Snackbar.Add("Password is required.", Severity.Error);
+            return;
+        }
+
+        if (password != confirmPassword)
+        {
+            Snackbar.Add("Passwords do not match.", Severity.Error);
+            return;
+        }
+
+        isLoading = true;
+
+        try
+        {
+            var result = await SupabaseService.SignUpAsync(email, password, username);
+            if (result)
+            {
+                Snackbar.Add("Registration successful!", Severity.Success);
+                NavigationManager.NavigateTo("/signin");
+            }
+            else
+            {
+                Snackbar.Add("Registration failed. Please try again.", Severity.Error);
+            }
+        }
+        catch (Exception ex)
+        {
+            if (ex.Message.Contains("User already registered"))
+            {
+                Snackbar.Add("Email is already registered.", Severity.Warning);
+            }
+            else
+            {
+                Snackbar.Add("Registration failed. Please try again.", Severity.Error);
+            }
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+}
+
+<style>
+    .sign-in-button {
+        background-color: #007BFF !important;
+        color: white !important;
+        border-radius: 8px;
+        padding: 12px 20px;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .sign-in-button:hover {
+            background-color: #0056b3 !important;
+        }
+</style>

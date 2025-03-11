@@ -1,0 +1,125 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlogApplication.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlogApplication.hfeh3xajia.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\blog.png",
+      "PackagePath": "staticwebassets\\blog.png"
+    },
+    {
+      "Id": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\04e5df32-53ea-4698-b484-b449dd18ee46_deepseek.png",
+      "PackagePath": "staticwebassets\\uploads\\04e5df32-53ea-4698-b484-b449dd18ee46_deepseek.png"
+    },
+    {
+      "Id": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\0ae0141d-0202-4c8c-9c47-bf335ab74e35_lifestyle.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\0ae0141d-0202-4c8c-9c47-bf335ab74e35_lifestyle.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\12ef3a68-3453-4bda-967e-bd4c7f9b142e_Business.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\12ef3a68-3453-4bda-967e-bd4c7f9b142e_Business.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\2f9fef7f-df63-45e9-80dd-5557b553ee40_sun (1).png",
+      "PackagePath": "staticwebassets\\uploads\\2f9fef7f-df63-45e9-80dd-5557b553ee40_sun (1).png"
+    },
+    {
+      "Id": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\4a0c39e8-7bad-4992-b829-3563c76c9996_claude.png",
+      "PackagePath": "staticwebassets\\uploads\\4a0c39e8-7bad-4992-b829-3563c76c9996_claude.png"
+    },
+    {
+      "Id": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\58fd233d-7582-45e0-baff-b58971e3fe05_politics.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\58fd233d-7582-45e0-baff-b58971e3fe05_politics.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\92f8941c-30ab-4f50-a97c-66524dcbef39_claude.png",
+      "PackagePath": "staticwebassets\\uploads\\92f8941c-30ab-4f50-a97c-66524dcbef39_claude.png"
+    },
+    {
+      "Id": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\972b8e30-bf66-48e9-8e9d-5901170cbeb0.png",
+      "PackagePath": "staticwebassets\\uploads\\972b8e30-bf66-48e9-8e9d-5901170cbeb0.png"
+    },
+    {
+      "Id": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\ba9ba469-ca52-4f03-b379-5ed1a4f19332_food.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ba9ba469-ca52-4f03-b379-5ed1a4f19332_food.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tamil\\source\\repos\\BlogApplication\\BlogApplication\\wwwroot\\uploads\\c3eb89f7-91de-4773-84c0-3adf68c6cc82_health.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c3eb89f7-91de-4773-84c0-3adf68c6cc82_health.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BlogApplication.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BlogApplication.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.BlogApplication.props",
+      "PackagePath": "build\\BlogApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.BlogApplication.props",
+      "PackagePath": "buildMultiTargeting\\BlogApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.BlogApplication.props",
+      "PackagePath": "buildTransitive\\BlogApplication.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

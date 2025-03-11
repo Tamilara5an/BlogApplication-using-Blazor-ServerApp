@@ -1,0 +1,84 @@
+﻿@page "/about"
+@using MudBlazor
+
+<MudContainer MaxWidth="MaxWidth.Large" Class="mt-8">
+    <MudPaper Elevation="3" Class="pa-8 mb-8 rounded-lg" Style="background: linear-gradient(135deg, var(--mud-palette-primary) 0%, var(--mud-palette-secondary) 100%);">
+        <MudGrid>
+            <MudItem xs="12" md="7" Class="d-flex flex-column justify-center">
+                <MudText Typo="Typo.h2" Color="Color.Surface" Class="mb-4">About DevBlog</MudText>
+                <MudText Typo="Typo.subtitle1" Color="Color.Surface" Class="mb-6">
+                    Connecting minds, sharing stories, and inspiring innovation.
+                </MudText>
+                <MudButton Variant="Variant.Filled"
+                           Color="Color.Surface"
+                           Size="Size.Large"
+                           Href="/view-post"
+                           Class="rounded-pill px-8">
+                    Explore Posts
+                </MudButton>
+            </MudItem>
+            <MudItem xs="12" md="5" Class="d-flex justify-center align-center">
+                <MudIcon Icon="@Icons.Material.Filled.People"
+                         Size="Size.Large"
+                         Color="Color.Surface"
+                         Style="width: 200px; height: 200px;" />
+            </MudItem>
+        </MudGrid>
+    </MudPaper>
+
+    <MudGrid Class="mb-8">
+        <MudItem xs="12">
+            <MudText Typo="Typo.h4" Align="Align.Center" Class="mb-6">Our Mission</MudText>
+        </MudItem>
+        <MudItem xs="12" sm="6" md="4">
+            <MudCard Elevation="2" Class="pa-4">
+                <MudCardContent>
+                    <MudIcon Icon="@Icons.Material.Filled.Lightbulb" Color="Color.Primary" Size="Size.Large" Class="mb-4" />
+                    <MudText Typo="Typo.h6" Class="mb-2">Inspire Creativity</MudText>
+                    <MudText Typo="Typo.body2" Color="Color.Secondary">
+                        Encourage writers to share unique ideas and perspectives.
+                    </MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+        <MudItem xs="12" sm="6" md="4">
+            <MudCard Elevation="2" Class="pa-4">
+                <MudCardContent>
+                    <MudIcon Icon="@Icons.Material.Filled.Group" Color="Color.Primary" Size="Size.Large" Class="mb-4" />
+                    <MudText Typo="Typo.h6" Class="mb-2">Build Community</MudText>
+                    <MudText Typo="Typo.body2" Color="Color.Secondary">
+                        Foster a space for connection and collaboration.
+                    </MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+        <MudItem xs="12" sm="6" md="4">
+            <MudCard Elevation="2" Class="pa-4">
+                <MudCardContent>
+                    <MudIcon Icon="@Icons.Material.Filled.Book" Color="Color.Primary" Size="Size.Large" Class="mb-4" />
+                    <MudText Typo="Typo.h6" Class="mb-2">Share Knowledge</MudText>
+                    <MudText Typo="Typo.body2" Color="Color.Secondary">
+                        Empower users to learn and grow through shared stories.
+                    </MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+    </MudGrid>
+
+    <MudPaper Elevation="0" Class="pa-6 text-center rounded-lg" Style="background-color: var(--mud-palette-grey-lighten-4);">
+        <MudText Typo="Typo.h5" Class="mb-4">Join the DevBlog Community</MudText>
+        <MudText Typo="Typo.body1" Color="Color.Secondary" Class="mb-6">
+            Whether you're a writer, reader, or thinker, there's a place for you here.
+        </MudText>
+        <MudButton Variant="Variant.Filled"
+                   Color="Color.Primary"
+                   Size="Size.Large"
+                   Href="/create-post"
+                   Class="rounded-pill px-8">
+            Start Writing
+        </MudButton>
+    </MudPaper>
+</MudContainer>
+
+@code {
+}

@@ -1,0 +1,133 @@
+﻿@page "/signin"
+@using System.ComponentModel.DataAnnotations
+@using BlogApplication.Services
+@inject SupabaseService SupabaseService
+@inject NavigationManager NavigationManager
+@inject ISnackbar Snackbar
+@inject Blazored.LocalStorage.ILocalStorageService LocalStorage
+
+<MudContainer MaxWidth="MaxWidth.Small" Class="px-4">
+    <MudCard Elevation="25" Class="mt-4 mt-sm-8">
+        <MudCardHeader Class="d-flex flex-column align-center py-4">
+            <MudAvatar Size="Size.Large" Class="mb-3">
+                <MudImage Src="blog.png" Alt="Blog Logo" Class="object-fit-cover"></MudImage>
+            </MudAvatar>
+            <MudText Typo="Typo.h4" Class="text-center">Sign In</MudText>
+        </MudCardHeader>
+        <MudCardContent Class="px-4 pb-4">
+            <MudGrid Spacing="2">
+                <MudItem xs="12">
+                    <MudTextField @bind-Value="@email"
+                                  Label="Email"
+                                  Required="true"
+                                  RequiredError="Email is required!"
+                                  Validation="@(new EmailAddressAttribute() {ErrorMessage = "Invalid email address"})"
+                                  Variant="Variant.Outlined"
+                                  Class="mb-3" />
+                </MudItem>
+
+                <MudItem xs="12">
+                    <MudTextField @bind-Value="@password"
+                                  Label="Password"
+                                  Required="true"
+                                  InputType="@(showPassword ? InputType.Text : InputType.Password)"
+                                  Adornment="Adornment.End"
+                                  Variant="Variant.Outlined"
+                                  AdornmentIcon="@(showPassword ? Icons.Material.Filled.VisibilityOff : Icons.Material.Filled.Visibility)"
+                                  OnAdornmentClick="() => showPassword = !showPassword" />
+                </MudItem>
+            </MudGrid>
+        </MudCardContent>
+        <MudCardActions Class="d-flex flex-column align-center pb-4 px-4">
+            <MudButton Variant="Variant.Filled"
+                       Color="Color.Primary"
+                       Size="Size.Large"
+                       FullWidth="true"
+                       OnClick="HandleSignIn"
+                       Class="sign-in-button mb-3">
+                <MudProgressCircular Indeterminate="true" Style="margin-right:8px;" Hidden="@(!isLoading)" />
+                @if (!isLoading)
+                {
+                    <span>Sign In</span>
+                }
+                else
+                {
+                    <span>Signing In...</span>
+                }
+            </MudButton>
+
+            <MudButton Variant="Variant.Text"
+                       Color="Color.Secondary"
+                       OnClick="@(() => NavigationManager.NavigateTo("/signup"))">
+                Create an account
+            </MudButton>
+        </MudCardActions>
+    </MudCard>
+</MudContainer>
+
+@code {
+    private string email = string.Empty;
+    private string password = string.Empty;
+    private bool showPassword;
+    private bool isLoading = false;
+
+
+    private async Task HandleSignIn()
+    {
+        if (isLoading) return;
+
+        try
+        {
+            var token = await SupabaseService.SignInAsync(email, password);
+            if (!string.IsNullOrEmpty(token))
+            {
+                await LocalStorage.SetItemAsync("auth_token", token);
+                await LocalStorage.SetItemAsync("Email", email);
+
+                var metadata = await SupabaseService.GetUserMetadataAsync();
+                if (metadata != null)
+                {
+                    string username = metadata.ContainsKey("username") ? metadata["username"].ToString() : "No username";
+                    string role = metadata.ContainsKey("role") ? metadata["role"].ToString() : "User";
+
+                    if (role == "Admin")
+                    {
+                        Snackbar.Add($"Welcome Admin {username}!", Severity.Success);
+						await Task.Delay(1000);
+                    }
+                    else
+                    {
+                        Snackbar.Add($"Welcome User {username}!", Severity.Success);
+                        await Task.Delay(1000);
+                    }
+                }
+                StateHasChanged();
+                NavigationManager.NavigateTo("/view-post",true);
+               
+            }
+            else
+            {
+                Snackbar.Add("Invalid email or password.", Severity.Error);
+            }
+        }
+        catch (Exception ex)
+        {
+            Snackbar.Add("Login failed. Please try again.", Severity.Error);
+            Console.WriteLine($"Error: {ex.Message}");
+        }
+    }
+}
+
+<style>
+    .sign-in-button {
+        background-color: #007BFF !important;
+        color: white !important;
+        border-radius: 8px;
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+
+        .sign-in-button:hover {
+            background-color: #0056b3 !important;
+        }
+</style>

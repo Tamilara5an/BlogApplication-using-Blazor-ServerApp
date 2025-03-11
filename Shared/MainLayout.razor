@@ -1,0 +1,309 @@
+﻿@inherits LayoutComponentBase
+@using BlogApplication.Services
+@using Microsoft.AspNetCore.Components.Authorization
+@inject AuthenticationStateProvider AuthStateProvider
+@inject NavigationManager Navigation
+@inject ILocalStorageService LocalStorage
+@inject ISnackbar Snackbar
+@inject SupabaseService SupabaseService
+@using Blazored.LocalStorage
+@using System.Security.Claims
+@inject MongoDBService MongoDBService
+
+<MudThemeProvider @bind-IsDarkMode="@_isDarkMode" Theme="_theme" />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<MudLayout>
+    <MudAppBar Elevation="1" Dense="@_dense">
+        <MudItem>
+            <MudButton Color="Color.Inherit" Edge="Edge.Start" OnClick="@ToggleDrawer">
+                <MudIcon Icon="@Icons.Material.Filled.Menu" />
+            </MudButton>
+        </MudItem>
+        <MudItem>
+            <h4 style="margin: 0;">Blog App</h4>
+        </MudItem>
+
+        <MudSpacer />
+        <div class="d-flex flex-column align-center ">
+            <MudTooltip Text="@GetTooltipText()" Color="Color.Tertiary" Placement="Placement.Left" Arrow="true">
+                <MudIcon Icon="@(_isDarkMode ? Icons.Material.Filled.WbSunny : Icons.Material.Filled.DarkMode)"
+                         Color="Color.Secondary"
+                         Size="Size.Medium"
+                         Class="ma-4 cursor-pointer"
+                         @onclick="ToggleDarkMode" />
+            </MudTooltip>
+        </div>
+
+        @if (isAuthenticated)
+        {
+            <MudMenu Style="font-size:1.5rem;"
+                     AnchorOrigin="Origin.BottomRight"
+                     TransformOrigin="Origin.TopRight">
+
+                <ActivatorContent>
+                    <MudTooltip Text="@UserName" Color="Color.Tertiary" Placement="Placement.Left" Arrow="true">
+                        <MudButton Variant="Variant.Filled"
+                                   Color="Color.Secondary"
+                                   Class="rounded-circle elegant-button"
+                                   Style="width: 40px; height: 40px; min-width: 0; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: bold;"
+                                   MinWidth="0">
+                            @if (!string.IsNullOrEmpty(userEmail))
+                            {
+                                <span>@userEmail.FirstOrDefault().ToString().ToUpper()</span>
+                            }
+                        </MudButton>
+                    </MudTooltip>
+                </ActivatorContent>
+
+                <ChildContent>
+                    <MudMenuItem>@UserName</MudMenuItem>
+                    <MudMenuItem>@userEmail</MudMenuItem>
+                    <MudMenuItem>Followers: @followersCount</MudMenuItem>
+                    <MudMenuItem>Following: @followingCount</MudMenuItem>
+                </ChildContent>
+            </MudMenu>
+        }
+        else
+        {
+
+        }
+    </MudAppBar>
+
+    <MudDrawer @bind-Open="@_open"
+               ClipMode="_clipMode"
+               Breakpoint="@_breakpoint"
+               Elevation="1"
+               Variant="@DrawerVariant.Mini"
+               MiniWidth="80px"
+               Width="250px"
+               Style="overflow-x: hidden;">
+        <MudNavMenu Class="d-flex flex-column align-center" Style="width: 100%;">
+            @if (!isAuthenticated)
+            {
+                <MudTooltip Text="Home" Color="Color.Tertiary" Placement="Placement.Bottom" Arrow="true" RootStyle="z-index: 3000;">
+                    <MudNavLink Href="/" Match="NavLinkMatch.All" Color="Color.Tertiary" Class="text-center py-2">
+                        <MudIcon Icon="@Icons.Material.Filled.Home" Variant="Variant.Filled" Color="Color.Primary" Size="Size.Medium" />
+                        @if (_open)
+                        {
+                            <span>Home</span>
+                        }
+                    </MudNavLink>
+                </MudTooltip>
+                <MudTooltip Text="Sign In" Color="Color.Tertiary" Placement="Placement.Bottom" Arrow="true" RootStyle="z-index: 3000;">
+                    <MudNavLink Match="NavLinkMatch.All" Color="Color.Tertiary" OnClick="LoginUser" Class="text-center py-2">
+                        <MudIcon Icon="@Icons.Material.Filled.Login" Variant="Variant.Filled" Color="Color.Primary" Size="Size.Medium" />
+                        @if (_open)
+                        {
+                            <span>Sign In</span>
+                        }
+                    </MudNavLink>
+                </MudTooltip>
+            }
+
+            @if (isAuthenticated)
+            {
+                <MudTooltip Text="View Post" Color="Color.Tertiary" Placement="Placement.Bottom" Arrow="true" RootStyle="z-index: 3000;">
+                    <MudNavLink Href="/view-post" Match="NavLinkMatch.All" Color="Color.Tertiary" Class="text-center py-2">
+                        <MudIcon Icon="@Icons.Material.Filled.Dashboard" Variant="Variant.Filled" Color="Color.Primary" Size="Size.Medium" />
+                        @if (_open)
+                        {
+                            <span>View Post</span>
+                        }
+                    </MudNavLink>
+                </MudTooltip>
+                <MudTooltip Text="Create Post" Color="Color.Tertiary" Placement="Placement.Bottom" Arrow="true" RootStyle="z-index: 3000;">
+                    <MudNavLink Href="/create-post" Match="NavLinkMatch.All" Color="Color.Tertiary" Class="text-center py-2">
+                        <MudIcon Icon="@Icons.Material.Filled.Create" Variant="Variant.Filled" Color="Color.Primary" Size="Size.Medium" />
+                        @if (_open)
+                        {
+                            <span>Create Post</span>
+                        }
+                    </MudNavLink>
+                </MudTooltip>
+
+                <MudTooltip Text="About" Color="Color.Tertiary" Placement="Placement.Bottom" Arrow="true" RootStyle="z-index: 3000;">
+                    <MudNavLink Href="/about" Match="NavLinkMatch.All" Color="Color.Tertiary" Class="text-center py-2">
+                        <MudIcon Icon="@Icons.Material.Filled.Info" Variant="Variant.Filled" Color="Color.Primary" Size="Size.Medium" />
+                        @if (_open)
+                        {
+                            <span>About</span>
+                        }
+                    </MudNavLink>
+                </MudTooltip>
+
+                <MudTooltip Text="Sign Out" Color="Color.Tertiary" Placement="Placement.Bottom" Arrow="true" RootStyle="z-index: 3000;">
+                    <MudNavLink Match="NavLinkMatch.All" Color="Color.Tertiary" OnClick="HandleLogout" Class="text-center py-2">
+                        <MudIcon Icon="@Icons.Material.Filled.Logout" Variant="Variant.Filled" Color="Color.Primary" Size="Size.Medium" />
+                        @if (_open)
+                        {
+                            <span>Sign Out</span>
+                        }
+                    </MudNavLink>
+                </MudTooltip>
+            }
+        </MudNavMenu>
+    </MudDrawer>
+
+    <MudMainContent Class="pt-16 px-16">
+        @Body
+    </MudMainContent>
+</MudLayout>
+
+@code {
+    private bool _open = false;
+    private bool _dense = false;
+    private Breakpoint _breakpoint = Breakpoint.Lg;
+    private DrawerClipMode _clipMode = DrawerClipMode.Never;
+    private MudTheme _theme = new();
+    private bool _isDarkMode;
+    private string userEmail = "";
+    private string UserName = "";
+    private bool isAuthenticated = false;
+    private int followersCount = 0;
+    private int followingCount = 0;
+    private string currentUserId = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        await CheckAuthenticationStatus();
+        AuthStateProvider.AuthenticationStateChanged += AuthenticationStateChanged;
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            // Load the dark mode preference from local storage after the component is rendered
+            _isDarkMode = await LocalStorage.GetItemAsync<bool>("isDarkMode");
+            StateHasChanged(); // Ensure the UI updates with the loaded theme
+        }
+    }
+
+    private async void AuthenticationStateChanged(Task<AuthenticationState> task)
+    {
+        var authState = await task;
+        await InvokeAsync(async () =>
+        {
+            await CheckAuthenticationStatus();
+            StateHasChanged();
+        });
+    }
+
+    private string GetTooltipText()
+    {
+        return _isDarkMode ? "Switch to Light Mode" : "Switch to Dark Mode";
+    }
+
+    public void Dispose()
+    {
+        AuthStateProvider.AuthenticationStateChanged -= AuthenticationStateChanged;
+    }
+
+    private async Task CheckAuthenticationStatus()
+    {
+        try
+        {
+            var authToken = await LocalStorage.GetItemAsync<string>("auth_token");
+            isAuthenticated = !string.IsNullOrEmpty(authToken);
+
+            if (isAuthenticated)
+            {
+                var Email = await LocalStorage.GetItemAsync<string>("Email") ?? "Unknown User";
+                userEmail = Email;
+
+                var username = await LocalStorage.GetItemAsync<string>("username") ?? "Unknown User";
+                UserName = username;
+
+                currentUserId = await LocalStorage.GetItemAsync<string>("userid");
+                if (!string.IsNullOrEmpty(currentUserId))
+                {
+                    var followers = await MongoDBService.GetFollowersAsync(currentUserId);
+                    var following = await MongoDBService.GetFollowingAsync(currentUserId);
+                    followersCount = followers?.Count ?? 0;
+                    followingCount = following?.Count ?? 0;
+                }
+            }
+            else
+            {
+                userEmail = "";
+                followersCount = 0;
+                followingCount = 0;
+            }
+
+            StateHasChanged();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error Checking Authentication: {ex.Message}");
+            isAuthenticated = false;
+            userEmail = "";
+            followersCount = 0;
+            followingCount = 0;
+        }
+    }
+
+    private void ToggleDrawer()
+    {
+        _open = !_open;
+    }
+
+    private async Task ToggleDarkMode()
+    {
+        _isDarkMode = !_isDarkMode;
+        // Save the dark mode preference to local storage
+        await LocalStorage.SetItemAsync("isDarkMode", _isDarkMode);
+    }
+
+    private async Task LoginUser()
+    {
+        Navigation.NavigateTo("/signin");
+        await Task.Delay(500);
+        await CheckAuthenticationStatus();
+        StateHasChanged();
+    }
+
+    private async Task HandleLogout()
+    {
+        try
+        {
+            await LocalStorage.RemoveItemAsync("auth_token");
+            await LocalStorage.RemoveItemAsync("Email");
+            await LocalStorage.RemoveItemAsync("user_metadata");
+            await LocalStorage.RemoveItemAsync("userid");
+            await LocalStorage.RemoveItemAsync("username");
+
+            isAuthenticated = false;
+            userEmail = "";
+            followersCount = 0;
+            followingCount = 0;
+
+            Snackbar.Add("Logged out successfully", Severity.Success);
+            await Task.Delay(1000);
+
+            Console.WriteLine("User logged out successfully");
+
+            StateHasChanged();
+            Navigation.NavigateTo("/");
+        }
+        catch (Exception ex)
+        {
+            Snackbar.Add("Error during logout", Severity.Error);
+            Console.WriteLine($"Logout error: {ex.Message}");
+        }
+    }
+}
+
+<style>
+    .custom-login-button {
+        background-color: #4CAF50 !important;
+        color: white !important;
+        border-radius: 8px;
+        padding: 10px 20px;
+    }
+
+        .custom-login-button:hover {
+            background-color: #45a049 !important;
+        }
+</style>
