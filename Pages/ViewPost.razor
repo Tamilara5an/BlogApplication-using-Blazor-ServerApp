@@ -77,10 +77,19 @@
     else
     {
         <MudTabs Elevation="2" Rounded="true" ApplyEffectsToContainer="true" PanelClass="pa-6" Class="mb-8">
-            <MudTabPanel Text="All">
-                <MudGrid>
-                    @foreach (var post in filteredPosts)
-                    {
+            <MudTabPanel>
+                <TabContent>
+                    <MudTooltip Text="All">
+                        <MudIcon Icon="@Icons.Material.Outlined.ListAlt"
+                                 Size="Size.Medium"
+                                 Color="Color.Primary"
+                                 Class="elegant-icon" />
+                    </MudTooltip>
+                </TabContent>
+                <ChildContent>
+            <MudGrid>
+                @foreach (var post in filteredPosts)
+                {
                         <MudItem xs="12">
                             <MudCard Elevation="2" Class="mb-6 cursor-pointer" @onclick="() => NavigateToPost(post.Id)">
                                 <MudCardHeader>
@@ -192,15 +201,25 @@
                                 }
                             </MudCard>
                         </MudItem>
-                    }
-                </MudGrid>
+                        }
+                    </MudGrid>
+                </ChildContent>
             </MudTabPanel>
             @foreach (var category in Categories)
             {
-                <MudTabPanel Text="@category">
-                    <MudGrid>
-                        @foreach (var post in filteredPosts.Where(p => p.Category == category))
-                        {
+                <MudTabPanel>
+                    <TabContent>
+                        <MudTooltip Text="@category">
+                            <MudIcon Icon="@GetCategoryIcon(category)"
+                                     Size="Size.Medium"
+                                     Color="Color.Primary"
+                                     Class="elegant-icon" />
+                        </MudTooltip>
+                    </TabContent>
+                    <ChildContent>
+                <MudGrid>
+                    @foreach (var post in filteredPosts.Where(p => p.Category == category))
+                    {
                             <MudItem xs="12">
                                 <MudCard Elevation="2" Class="mb-6 cursor-pointer" @onclick="() => NavigateToPost(post.Id)">
                                     <MudCardHeader>
@@ -310,8 +329,9 @@
                                     }
                                 </MudCard>
                             </MudItem>
-                        }
-                    </MudGrid>
+                            }
+                        </MudGrid>
+                    </ChildContent>
                 </MudTabPanel>
             }
         </MudTabs>
@@ -428,6 +448,25 @@
             StateHasChanged();
         }
     }
+
+    private string GetCategoryIcon(string category) => category switch
+    {
+        "Technology" => Icons.Material.Outlined.DeveloperMode,
+        "Health" => Icons.Material.TwoTone.Healing,              
+        "Lifestyle" => Icons.Material.Filled.Spa,                
+        "Education" => Icons.Material.Outlined.Book,               
+        "Business" => Icons.Material.TwoTone.Work,
+        "Politics" => Icons.Material.Filled.AccountBalance,       
+        "Entertainment" => Icons.Material.Outlined.TheaterComedy,  
+        "Sports" => Icons.Material.Filled.FitnessCenter,           
+        "Travel" => Icons.Material.TwoTone.Explore,                
+        "Food" => Icons.Material.Outlined.LocalDining,             
+        "Science" => Icons.Material.Filled.Biotech,                
+        "Culture" => Icons.Material.TwoTone.Diversity3,            
+        "Current Events" => Icons.Material.Outlined.EventNote,     
+        "Other" => Icons.Material.Filled.Stars,                    
+        _ => Icons.Material.Outlined.QuestionAnswer               
+    };
 
     private async Task ToggleFollow(BlogPost post)
     {
@@ -627,3 +666,14 @@
         refreshTimer?.Dispose();
     }
 }
+
+<style>
+    .elegant-icon {
+        transition: all 0.3s ease;
+    }
+
+        .elegant-icon:hover {
+            transform: scale(1.2);
+            color: var(--mud-palette-primary-dark);
+        }
+</style>
